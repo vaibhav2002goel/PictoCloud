@@ -1,0 +1,101 @@
+.folder{
+    height: 185px;
+    width: 22%;
+    background-color: #eeeeee;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.folder:hover{
+    cursor: pointer;
+}
+
+#imageContainer{
+    background-color: white;
+    height: 75%;
+    width: 94%;
+    margin: 6px auto;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    margin-top: -34%;
+}
+
+.image{
+    height: 90%;
+    width: 92%;
+    margin-top: 3%;
+}
+
+#albumName{
+    text-align: center;
+    margin-top: -7%;
+    font-size: 22px;
+}
+
+#editContainer1{
+    position: relative;
+    /* background-color: #4389ff; */
+    height: 44px;
+    width: 44px;
+    border-radius: 44px;
+    top: -8%;
+    left: 65%;
+}
+
+#editContainer{
+    position: relative;
+    background-color: #4389ff;
+    height: 44px;
+    width: 44px;
+    border-radius: 44px;
+    top: -8%;
+    left: 65%;
+}
+
+#editImage{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    margin: 10px;
+}
+
+#deleteContainer1{
+    position: relative;
+    /* background-color: red; */
+    height: 44px;
+    width: 44px;
+    border-radius: 44px;
+    top: -31.5%;
+    left: 87%;
+}
+
+#deleteContainer{
+    position: relative;
+    background-color: red;
+    height: 44px;
+    width: 44px;
+    border-radius: 44px;
+    top: -31.5%;
+    left: 87%;
+}
+
+#deleteImage{
+    position: absolute;
+    height: 55%;
+    width: 55%;
+    margin: 9.5px;
+}
+
+.dynamicDisplayButtons{
+    display: none;
+}
+
+.folder:hover .dynamicDisplayButtons{
+    display: block;
+}
+
+.folder:hover .hide{
+    display: none;
+}
+
